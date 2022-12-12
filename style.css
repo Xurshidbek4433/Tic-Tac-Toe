@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: chocolate;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.card__item {
+    width: 40rem;
+    height: 40rem;
+    background-color: #ffff;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+.card {
+width: 13rem;
+height: 13rem;
+background-color: rgb(15, 15, 15);
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+/* .hidden {
+    display: none;
+} */
+
+
+.outline{
+    font-size: 7rem;
+    color: #ffff;
+    font-weight: 500;
+}
+
+.tajriba{
+ 
+  font-size: 8rem;
+  color: #ffff;
+  font-weight: 500;
+ 
+}
+
